@@ -1,0 +1,69 @@
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #E5E5E5;
+}
+
+main {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#background-container {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+
+#background {
+    width: 100%;
+    height: 100vh;
+}
+
+
+#merry {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 1px green,
+                 2px 2px 2px green,
+                 3px 3px 3px green;
+}
+
+.text {
+    font-size: 24px;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.left {
+    position: absolute;
+    top: 17vh;
+    left: 14%;
+    margin-right: 63%;
+}
+
+.right {
+    position: absolute;
+    top: 17vh;
+    right: 14%;
+    margin-left: 63%;
+}
+
+p {
+    margin: 0;
+}
+
+#merry_christmas_gif {
+    width: 200px;
+    margin-top: 10%;
+    margin-left: 20%;
+}
